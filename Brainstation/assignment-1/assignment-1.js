@@ -5,18 +5,19 @@
 // Create another variable named car and assign an empty object to it.
 // Give the object a property called colour and assign it the value of "blank".
 
-var numbers = [];
-numbers.push("0", "1", "2", "3", "4", "5", "6", "7", "8", "9");
+var myArray = [i];
 
 
-
-for (var i=0; i < 10; i++){
-    
+for (var i=0; i < 10; i++) {
+    myArray[i] = i * 1;
 }
 
-console.log(numbers[0]);
-console.log(numbers[9]);
+for (var i = 0; i < 10; i++) {
+    console.log(numbers[0]);
+    console.log(numbers[9]);
+}
+
 
 var car = new Object();
 
-car.colour = ();
+car.colour = (" ");
